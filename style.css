@@ -32,13 +32,16 @@ body {
 }
 
 .display-area {
-    /* stuff */
+    width: 0vw;
+    height: 0vh;
+    transition: 1.2s;
 }
 
-.expanded {
+.display-area.expanded {
     width: 95vw;
     height: 85vh;
-    border: 2px yellow solid;
+    border: 1px yellow solid;
+    transition: 2s ease;
 }
 
 #start-btn {
